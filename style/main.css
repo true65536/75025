@@ -93,7 +93,7 @@ h1.title {
   content: "Score"; }
 
 .best-container:after {
-  content: "Your Best"; }
+  content: "Best"; }
 
 p {
   margin-top: 0;
