@@ -1,11 +1,11 @@
 @import url(fonts/clear-sans.css);
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Montserrat";
+  font-family: "Ubuntu";
   font-size: 18px; }
 
 body {
@@ -449,14 +449,94 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-33825 .tile-inner {
         font-size: 12px; } }
-  .tile.tile-super .tile-inner {
+  .tile.tile-54730 .tile-inner {
+    color: #000000;
+    background: rgba(191, 191, 255, 0.25);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.4);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-54730 .tile-inner {
+        font-size: 12px; } }
+  .tile.tile-88555 .tile-inner {
+    color: #555555;
+    background: rgba(128, 128, 255, 0.5);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.55);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-88555 .tile-inner {
+        font-size: 12px; } }
+  .tile.tile-143285 .tile-inner {
+    color: #aaaaaa;
+    background: rgba(64, 64, 255, 0.75);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.7);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-143285 .tile-inner {
+        font-size: 10px; } }
+  .tile.tile-231840 .tile-inner {
     color: #ffffff;
-    background: #000000;
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.85);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-231840 .tile-inner {
+        font-size: 10px; } }
+  .tile.tile-375125 .tile-inner {
+    color: #ffffff;
+    background: rgba(0, 0, 223, 1);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 1);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-375125 .tile-inner {
+        font-size: 10px; } }
+  .tile.tile-606965 .tile-inner {
+    color: #ffffff;
+    background: rgba(0, 0, 191, 0.25);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 255, 1);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-606965 .tile-inner {
+        font-size: 10px; } }
+  .tile.tile-982090 .tile-inner {
+    color: #ffffff;
+    background: rgba(0, 0, 159, 1);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 255, 1);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-982090 .tile-inner {
+        font-size: 10px; } }
+  .tile.tile-1589055 .tile-inner {
+    color: #ffffff;
+    background: rgba(0, 0, 128, 1);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 255, 1);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
+      .tile.tile-1589055 .tile-inner {
+        font-size: 8px; } }
+  .tile.tile-2571145 .tile-inner {
+    color: #ffffff;
+    background: #00bf00;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2571145 .tile-inner {
+        font-size: 8px; } }
+  .tile.tile-4160200 .tile-inner {
+    color: #ffffff;
+    background: #208020;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.8);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4160200 .tile-inner {
+        font-size: 8px; } }
+  .tile.tile-super .tile-inner {
+    color: #ffffff;
+    background: #404040;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 1);
+    font-size: 25px; }
+    @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 6px; } }
 
 @-webkit-keyframes appear {
   0% {
