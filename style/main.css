@@ -1,11 +1,11 @@
 @import url(fonts/clear-sans.css);
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Ubuntu";
+  font-family: "Comfortaa";
   font-size: 18px; }
 
 body {
@@ -475,7 +475,7 @@ hr {
         font-size: 10px; } }
   .tile.tile-231840 .tile-inner {
     color: #ffffff;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 255, 1);
     box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.85);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
