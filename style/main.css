@@ -349,55 +349,58 @@ hr {
     z-index: 10;
     font-size: 45px; }
   .tile.tile-5 .tile-inner {
-    background: #ffdfdf;
+    background: #ffffff;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
     font-size: 80px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-5 .tile-inner {
+        font-size: 45px; } }
   .tile.tile-10 .tile-inner {
-    background: #ffbfbf;
+    background: #ffcccc;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-15 .tile-inner {
-    background: #ff9f9f;
+    background: #ff9999;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-25 .tile-inner {
     color: #f9f6f2;
-    background: #ff8080; }
+    background: #ff6666; }
   .tile.tile-40 .tile-inner {
     color: #f9f6f2;
-    background: #ff6060; }
+    background: #ff3333; }
   .tile.tile-65 .tile-inner {
     color: #f9f6f2;
-    background: #ff4040; }
+    background: #ff0000; }
   .tile.tile-105 .tile-inner {
     color: #f9f6f2;
-    background: #ff2020;
+    background: #cc0000;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-105 .tile-inner {
         font-size: 15px; } }
   .tile.tile-170 .tile-inner {
     color: #f9f6f2;
-    background: #ff0000;
+    background: #990000;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-170 .tile-inner {
         font-size: 15px; } }
   .tile.tile-275 .tile-inner {
     color: #f9f6f2;
-    background: #dd0000;
+    background: #660000;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-275 .tile-inner {
         font-size: 15px; } }
   .tile.tile-445 .tile-inner {
     color: #f9f6f2;
-    background: #bb0000;
+    background: #330000;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-445 .tile-inner {
         font-size: 15px; } }
   .tile.tile-720 .tile-inner {
     color: #f9f6f2;
-    background: #990000;
+    background: #000000;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-720 .tile-inner {
