@@ -463,8 +463,9 @@ hr {
         font-size: 12px; } }
   .tile.tile-33825 .tile-inner {
     color: #000000;
-    background: #ffff00;
-    box-shadow: 0 0 30px 10px rgba(255, 255, 0, 1);
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    box-shadow: 0 0 30px 10px linear-gradient(to left, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    border: 5px solid black;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-33825 .tile-inner {
