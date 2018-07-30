@@ -1,5 +1,6 @@
 @import url(fonts/clear-sans.css);
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
 @import url(https://fontlibrary.org/face/segment7);
 html, body {
   margin: 0;
@@ -53,6 +54,8 @@ h1.title {
   text-align: right; }
 
 .score-container, .best-container {
+  font-family: "Segment7Standard";
+  font-style: italic;
   position: relative;
   display: inline-block;
   background: #bbada0;
@@ -60,7 +63,7 @@ h1.title {
   font-size: 15px;
   height: 35px;
   line-height: 47px;
-  font-weight: bold;
+  font-weight: normal;
   border-radius: 3px;
   color: white;
   margin-top: 8px;
@@ -81,7 +84,7 @@ h1.title {
     font-size: 15px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(0, 191, 0, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -91,10 +94,12 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "Score";
+  font-family: "Comfortaa"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "Best";
+  font-family: "Comfortaa"; }
 
 p {
   margin-top: 0;
@@ -349,9 +354,7 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 45px;
-    font-family: "Segment7Standard";
-    font-weight: normal;
-    font-style: italic;}
+    font-family: "Electrolize"; }
   .tile.tile-5 .tile-inner {
     background: #ffffff;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
@@ -468,7 +471,7 @@ hr {
   .tile.tile-33825 .tile-inner {
     color: #000000;
     background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
-    box-shadow: 0 0 30px 10px linear-gradient(to left, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    box-shadow: 0 0 30px 10px #ffffff;
     border: 5px solid black;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
