@@ -180,7 +180,6 @@ GameManager.prototype.move = function (direction) {
 
           // Update the score
           self.score += merged.value;
-          document.getElementById("score").value = self.score;
 
           // The mighty winning tile (12920, 33825, 88555, 231840)
           if (merged.value === 12920) self.won = true;
