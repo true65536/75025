@@ -661,9 +661,9 @@ hr {
     transform: scale(1); } }
 .tile-merged .tile-inner {
   z-index: 20;
-  -webkit-animation: pop 500ms ease 250ms;
-  -moz-animation: pop 500ms ease 250ms;
-  animation: pop 500ms ease 250ms;
+  -webkit-animation: pop 100ms ease 50ms;
+  -moz-animation: pop 100ms ease 50ms;
+  animation: pop 100ms ease 50ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
