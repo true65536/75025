@@ -25,29 +25,23 @@ h1.title {
   display: block;
   float: left; }
 
-@-webkit-keyframes move-up {
+@-webkit-keyframes fadeout {
   0% {
-    top: 25px;
     opacity: 1; }
 
   100% {
-    top: -50px;
     opacity: 0; } }
 @-moz-keyframes move-up {
   0% {
-    top: 25px;
     opacity: 1; }
 
   100% {
-    top: -50px;
     opacity: 0; } }
 @keyframes move-up {
   0% {
-    top: 25px;
     opacity: 1; }
 
   100% {
-    top: -50px;
     opacity: 0; } }
 .scores-container {
   float: right;
@@ -86,10 +80,9 @@ h1.title {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.9);
     z-index: 100;
-    -webkit-animation: move-up 1s ease-in;
-    -moz-animation: move-up 1s ease-in;
-    animation: move-up 1s ease-in;
-    animation-delay: 2s;
+    -webkit-animation: fadeout 2s ease-in;
+    -moz-animation: fadeout 2s ease-in;
+    animation: fadeout 2s ease-in;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
@@ -254,7 +247,7 @@ hr {
   -webkit-transform: translate(0px, 300px);
   -moz-transform: translate(0px, 300px);
   transform: translate(0px, 300px); }
-  .tile.tile-position-1-5 {
+.tile.tile-position-1-5 {
   -webkit-transform: translate(0px, 400px);
   -moz-transform: translate(0px, 400px);
   transform: translate(0px, 400px); }
@@ -661,9 +654,9 @@ hr {
     transform: scale(1); } }
 .tile-merged .tile-inner {
   z-index: 20;
-  -webkit-animation: pop 100ms ease 50ms;
-  -moz-animation: pop 100ms ease 50ms;
-  animation: pop 100ms ease 50ms;
+  -webkit-animation: appear 200ms ease 100ms;
+  -moz-animation: appear 200ms ease 100ms;
+  animation: appear 200ms ease 100ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
