@@ -631,9 +631,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    transform: scale(2); }
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25); }
 
   100% {
     -webkit-transform: scale(1);
@@ -646,9 +646,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    transform: scale(2); }
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25); }
 
   100% {
     -webkit-transform: scale(1);
@@ -661,9 +661,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    transform: scale(2); }
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5); }
 
   100% {
     -webkit-transform: scale(1);
