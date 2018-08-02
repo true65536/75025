@@ -369,58 +369,62 @@ hr {
     font-family: "Montserrat"; }
   .tile.tile-5 .tile-inner {
     background: #ffffff;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
-    font-size: 80px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-5 .tile-inner {
-        font-size: 45px; } }
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0); }
   .tile.tile-10 .tile-inner {
     background: #ffcccc;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.1); }
   .tile.tile-15 .tile-inner {
     background: #ff9999;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.2); }
   .tile.tile-25 .tile-inner {
     color: #f9f6f2;
-    background: #ff6666; }
+    background: #ff6666;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.3); }
   .tile.tile-40 .tile-inner {
     color: #f9f6f2;
-    background: #ff3333; }
+    background: #ff3333;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.4); }
   .tile.tile-65 .tile-inner {
     color: #f9f6f2;
-    background: #ff0000; }
+    background: #ff0000;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.5); }
   .tile.tile-105 .tile-inner {
     color: #f9f6f2;
     background: #cc0000;
-    font-size: 45px; }
+    font-size: 45px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.6); }
     @media screen and (max-width: 520px) {
       .tile.tile-105 .tile-inner {
         font-size: 15px; } }
   .tile.tile-170 .tile-inner {
     color: #f9f6f2;
     background: #990000;
-    font-size: 45px; }
+    font-size: 45px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.7); }
     @media screen and (max-width: 520px) {
       .tile.tile-170 .tile-inner {
         font-size: 15px; } }
   .tile.tile-275 .tile-inner {
     color: #f9f6f2;
     background: #660000;
-    font-size: 45px; }
+    font-size: 45px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.8); }
     @media screen and (max-width: 520px) {
       .tile.tile-275 .tile-inner {
         font-size: 15px; } }
   .tile.tile-445 .tile-inner {
     color: #f9f6f2;
     background: #330000;
-    font-size: 45px; }
+    font-size: 45px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.9); }
     @media screen and (max-width: 520px) {
       .tile.tile-445 .tile-inner {
         font-size: 15px; } }
   .tile.tile-720 .tile-inner {
     color: #f9f6f2;
     background: #000000;
-    font-size: 45px; }
+    font-size: 45px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 1); }
     @media screen and (max-width: 520px) {
       .tile.tile-720 .tile-inner {
         font-size: 15px; } }
@@ -482,8 +486,8 @@ hr {
         font-size: 12px; } }
   .tile.tile-33825 .tile-inner {
     color: #000000;
-    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
-    box-shadow: 0 0 30px 10px #ffffff;
+    background: linear-gradient(to bottom, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 1);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-33825 .tile-inner {
@@ -628,9 +632,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    transform: scale(1.5); }
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2); }
 
   100% {
     -webkit-transform: scale(1);
@@ -643,9 +647,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    transform: scale(1.5); }
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2); }
 
   100% {
     -webkit-transform: scale(1);
@@ -658,9 +662,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    transform: scale(1.5); }
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2); }
 
   100% {
     -webkit-transform: scale(1);
@@ -668,9 +672,9 @@ hr {
     transform: scale(1); } }
 .tile-merged .tile-inner {
   z-index: 20;
-  -webkit-animation: pop 200ms ease 100ms;
-  -moz-animation: pop 200ms ease 100ms;
-  animation: pop 200ms ease 100ms;
+  -webkit-animation: pop 500ms ease 250ms;
+  -moz-animation: pop 500ms ease 250ms;
+  animation: pop 500ms ease 250ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
