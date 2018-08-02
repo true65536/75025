@@ -1,6 +1,6 @@
 @import url(fonts/clear-sans.css);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Electrolize);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fontlibrary.org/face/segment7);
 progress {
   appearance: none;
@@ -366,7 +366,7 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 45px;
-    font-family: "Electrolize"; }
+    font-family: "Montserrat"; }
   .tile.tile-5 .tile-inner {
     background: #ffffff;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
@@ -555,7 +555,7 @@ hr {
   .tile.tile-2571145 .tile-inner {
     color: #ffffff;
     background: #00bf00;
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.5);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2571145 .tile-inner {
@@ -563,7 +563,7 @@ hr {
   .tile.tile-4160200 .tile-inner {
     color: #ffffff;
     background: #208020;
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.75);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-4160200 .tile-inner {
@@ -628,9 +628,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2); }
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5); }
 
   100% {
     -webkit-transform: scale(1);
@@ -643,9 +643,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2); }
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5); }
 
   100% {
     -webkit-transform: scale(1);
@@ -658,9 +658,9 @@ hr {
     transform: scale(0); }
 
   50% {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2); }
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5); }
 
   100% {
     -webkit-transform: scale(1);
