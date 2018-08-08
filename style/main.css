@@ -613,7 +613,7 @@ hr {
     opacity: 1; } }
 .tile-merged .tile-inner {
   z-index: 20;
-  animation: pop 200ms ease 100ms;
+  animation: appear 200ms ease 100ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
