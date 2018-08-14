@@ -181,8 +181,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty winning tile (12920, 33825, 88555, 231840)
-          if (merged.value === 12920) self.won = true;
+          // The mighty winning tile (375125)
+          if (merged.value === 375125) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
