@@ -351,7 +351,7 @@ hr {
     font-family: "Montserrat"; }
   .tile.tile-5 .tile-inner {
     background: #ff0000;
-    box-shadow: 0 0 30px 15px #ff0000;
+    box-shadow: 0 0 4px 2px #ff0000;
     color: #f9f6f2; }
   .tile.tile-10 .tile-inner {
     background: #ff4000;
@@ -365,7 +365,7 @@ hr {
   .tile.tile-40 .tile-inner {
     color: #776e65;
     background: #ffff00;
-    box-shadow: 0 0 36px 18px #ffff00; }
+    box-shadow: 0 0 8px 4px #ffff00; }
   .tile.tile-65 .tile-inner {
     color: #776e65;
     background: #bfff00; }
@@ -386,7 +386,7 @@ hr {
   .tile.tile-275 .tile-inner {
     color: #776e65;
     background: #00ff00;
-    box-shadow: 0 0 42px 21px #00ff00;
+    box-shadow: 0 0 12px 6px #00ff00;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-275 .tile-inner {
@@ -415,7 +415,7 @@ hr {
   .tile.tile-1885 .tile-inner {
     color: #776e65;
     background: #00ffff;
-    box-shadow: 0 0 48px 24px #00ffff;
+    box-shadow: 0 0 16px 8px #00ffff;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1885 .tile-inner {
@@ -444,7 +444,7 @@ hr {
   .tile.tile-12920 .tile-inner {
     color: #f9f6f2;
     background: #0000ff;
-    box-shadow: 0 0 54px 27px #0000ff;
+    box-shadow: 0 0 20px 10px #0000ff;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-12920 .tile-inner {
@@ -473,7 +473,7 @@ hr {
   .tile.tile-88555 .tile-inner {
     color: #f9f6f2;
     background: #ff00ff;
-    box-shadow: 0 0 60px 30px #ff00ff;
+    box-shadow: 0 0 24px 12px #ff00ff;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-88555 .tile-inner {
@@ -495,7 +495,7 @@ hr {
   .tile.tile-375125 .tile-inner {
     color: #776e65;
     background: #ffffff;
-    box-shadow: 0 0 72px 36px #000000;
+    box-shadow: 0 0 32px 16px #000000;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-375125 .tile-inner {
