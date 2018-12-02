@@ -79,13 +79,7 @@ h1.title {
     line-height: 25px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.9);
-    z-index: 100;
-    -webkit-animation: fadeout 2s ease-in;
-    -moz-animation: fadeout 2s ease-in;
-    animation: fadeout 2s ease-in;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    animation-fill-mode: both; }
+    z-index: 100; }
 
 .score-container:after {
   content: "Score";
