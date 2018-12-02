@@ -85,7 +85,8 @@ h1.title {
     line-height: 25px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.9);
-    animation: fadeout 1000ms ease-in 500ms;
+    animation: fadeout 1000ms ease-in;
+    animation-fill-mode: forwards;
     z-index: 100; }
 
 .score-container:after {
