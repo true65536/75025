@@ -27,22 +27,28 @@ h1.title {
 
 @-webkit-keyframes fadeout {
   0% {
-    opacity: 1; }
+    opacity: 1;
+    top: 120px; }
 
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    top: 0px; } }
 @-moz-keyframes fadeout {
   0% {
-    opacity: 1; }
+    opacity: 1;
+    top: 120px; }
 
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    top: 0px; } }
 @keyframes fadeout {
   0% {
-    opacity: 1; }
+    opacity: 1;
+    top: 120px; }
 
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    top: 0px; } }
 .scores-container {
   float: right;
   text-align: right; }
@@ -54,7 +60,7 @@ h1.title {
   display: inline-block;
   background: #bbada0;
   padding: 25px 25px;
-  font-size: 15px;
+  font-size: 35px;
   height: 35px;
   line-height: 47px;
   font-weight: normal;
@@ -75,10 +81,11 @@ h1.title {
     position: absolute;
     right: 30px;
     color: #000000;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 25px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.9);
+    animation: fadeout 1000ms ease-in 500ms;
     z-index: 100; }
 
 .score-container:after {
