@@ -84,7 +84,6 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.9);
     animation: fadeout 1000ms linear;
     animation-fill-mode: forwards;
     z-index: 100; }
